@@ -1,0 +1,6 @@
+# Build artifacts
+*.o
+market_maker
+
+# Mac junk
+.DS_Store
