@@ -5,6 +5,7 @@ This repository contains each market making strategy carefully written in C++ 17
 
 ## Repository Structure
 
+```
 amm-strategies/
 ├── core/
 │   ├── PriceFeed.h / .cpp
@@ -19,6 +20,7 @@ amm-strategies/
 │   ├── Simulator.h / .cpp
 │   └── main.cpp
 └── Makefile
+```
 
 `Pricefeed` implements a random walk which uses a pseudo random generator to sample from a normal distribution of mean 0.0 and standard deviation of `VOLATILITY`. Then, Orderbook, takes this Pricefeed and considers a spread around the price value to synthetically obtain best bid and ask offers. Together they simulate an L1 Orderbook.
 
