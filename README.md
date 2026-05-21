@@ -12,7 +12,7 @@ amm-strategies/
 │   └── Types.h
 ├── strategies/
 │   ├── BaseStrategy.h
-│   └── fixed_offset/
+│   └── fixed\_offset/
 │       ├── FixedOffset.h
 │       └── FixedOffset.cpp
 ├── simulation/
